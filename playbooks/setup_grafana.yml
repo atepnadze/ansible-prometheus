@@ -1,0 +1,6 @@
+---
+- name: Setup Grafana
+  hosts: grafana_servers
+  become: yes
+  roles:
+    - grafana
