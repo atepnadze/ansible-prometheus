@@ -1,0 +1,12 @@
+---
+roles:
+  - src: https://github.com/atepnadze/ansible-prometheus.git
+    name: prometheus
+  - src: https://github.com/atepnadze/ansible-grafana.git
+    name: grafana
+  - src: https://github.com/atepnadze/ansible-nginx.git
+    name: nginx
+  - src: https://github.com/atepnadze/ansible-node_exporter.git
+    name: node_exporter
+  - src: https://github.com/atepnadze/ansible-nginx_exporter.git
+    name: nginx_exporter

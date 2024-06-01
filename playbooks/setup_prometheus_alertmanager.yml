@@ -1,0 +1,7 @@
+---
+- name: Setup Prometheus and Alertmanager
+  hosts: prometheus_servers
+  become: yes
+  roles:
+    - prometheus
+    - alertmanager

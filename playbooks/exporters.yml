@@ -1,0 +1,7 @@
+---
+- name: Setup Node Exporter
+  hosts: prometheus_servers, grafana_servers
+  become: yes
+  roles:
+    - node_exporter
+    - nginx_exporter
