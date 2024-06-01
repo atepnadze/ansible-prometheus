@@ -1,0 +1,6 @@
+---
+- name: Setup Nginx
+  hosts: prometheus_servers, grafana_servers
+  become: yes
+  roles:
+    - nginx
